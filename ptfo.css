@@ -1,0 +1,287 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: #fff; 
+     background-image: url(bg1.avif);
+}
+
+
+header{
+    background-image: url(bg1.jpg);
+    background-color: rgb(242, 247, 248); 
+    height: 65vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    
+}
+#option{
+    line-height: 60px;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+     /* border: 5px solid red;   */
+   margin-bottom: 30px;
+}
+
+
+#biglogo h1{
+    margin-top: -50px;
+   margin-left: 40px;
+   color: #fff;
+}
+ 
+#logo img{
+    width: 150px;
+    /* margin-bottom: 50px; */
+    /* margin-right: 20px; */
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+
+}
+#option ul{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    margin-right: 15px;
+    color: #fff;
+    
+}
+#main-body{
+    margin-right: 100px;
+}
+#body{
+ 
+    /* margin-top: 30px; */
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+ #title{
+    
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 50%;
+    line-height: 40px;
+    
+   
+}
+
+#title span{
+    color: yello;
+}
+#title h3{
+    font-size: 25px;
+    color: #fff;
+}
+#title h2{
+    /* margin-top: 10px; */
+    
+    color: #fff;
+
+}
+#title p{
+    
+    font-size: 20px;
+}
+/* span{
+     font-size: 30px;
+}*/
+
+#img img{
+    height: 300px;
+    width: 300px;
+     margin-right: 200px; 
+    /* border: 1px solid #efefef; */
+    border-radius: 20px;
+     /* margin-top: 40px; */
+}
+ h1{
+    /* background-color:#b410dd; */
+    width: 100%;
+    max-width: 1200px;
+    border: #efefef;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 12px;
+    color: #2727cc ;
+}
+h2{
+    color: rgb(17, 61, 191);
+}
+#twe-th{
+    color: #f80015;
+}
+
+
+#skill{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    height: 90%;
+    gap: 40px;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-left: 230px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+#skill-first{
+    display: flex;
+  
+}
+#skill-first img{
+    height: 55%;
+    width: 55%;
+    /* border: 3px solid#000; */
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-top: 60px;
+    
+   
+}
+#main-title h1{
+    margin-bottom: 50px;
+    margin-top: 80px; 
+}
+#list-discription{
+    margin-left: 20 px;
+    /* border: 5px solid black; */
+}
+#list-discription p{
+    /* border: 5px solid black; */
+ font-size: 25px;
+ color: black;
+ font-weight: normal;
+ margin-right: px;
+ margin-left: px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+
+}
+#list-discription h1{
+    color: #000;
+    margin-right: 50px;
+}
+#title h1{
+    margin-bottom: 100px;
+}
+
+
+
+#ho{
+    width: 100%;
+    max-width: 1200px;
+    /* border: 1px solid #000; */
+    margin-left: 120px;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: #fff;
+    
+
+    
+}
+#first img{
+    width: 350px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 12px;
+    border: 2px solid #000;
+}
+#first{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#first h1{
+    
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#first h2{
+    
+   margin-left: 45px;
+   font-size: 25px;
+}
+#first p{
+    
+    margin-top: 25px;
+    margin-left: 45px;
+    font-size: 20px;
+}
+#main-title h1{
+    color: #2727cc;
+    font-size: 30px;
+}
+#hobbies{
+    margin-bottom: 100px;
+    margin-left: 120px;
+    /* background-color: #fff; */
+}
+
+
+
+#contact{
+    border:1px solid #000;
+    width: 100%;
+    max-width: 1200px;
+    height: 80%;
+    margin-left: 230px;
+    border-radius: 12px;
+    margin-top: 80px;
+    background-color: #f6f638;
+}
+#whatspp p{
+  
+margin-top: 50px;
+    font-size: 30px;
+}
+
+#ins p{
+  
+    margin-top: 50px;
+    font-size: 30px;
+}
+#phone p{
+  
+    margin-top: 50px;
+    font-size: 30px;
+}
+#face p{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+i{
+    margin-right: 50px;
+    margin-left: 150px;
+    width: 250px;
+    margin-top: 50px;
+}
+#griting h1{
+    font-size: 50px;
+    margin-left: 620px;
+    margin-top: 40px;
+    color: #fff;
+}
+#griting p{
+    font-size: 30px;
+    margin-left: 310px;
+    word-spacing: 10px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
